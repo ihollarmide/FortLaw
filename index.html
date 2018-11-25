@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/style.css">
+
+    <title>Fort Law</title>
+</head>
+<body>
+    <!-- BEM Naming Convention for classes for easy readabilty and maintainability -->
+
+    <header class="header">
+        <!-- Header Logo -->
+        <div class="header__logo-container">
+            <img src="img/logo2.png" alt="Fort Law Logo" class="header__logo">
+        </div>
+        <!-- Header Navigation -->
+        <nav class="header__navigation">
+            <!-- Header Navigation List -->
+            <ul class="header__navigation--list">
+                <!-- Header Navigation Items -->
+                <li class="header__navigation--item">
+                    <!-- Header Navigation Link for Home-->
+                    <a href="index.html" class="header__navigation--link">Home</a>
+                </li>
+                <li class="header__navigation--item">
+                    <!-- Header Navigation Link for About-->
+                    <a href="#about-section" class="header__navigation--link">About</a>
+                </li>
+                <li class="header__navigation--item">
+                    <!-- Header Navigation Link for Practice Area-->
+                    <a href="#practice-area" class="header__navigation--link">Practice Area</a>
+                </li>
+                <li class="header__navigation--item">
+                    <!-- Header Navigation Link for Team-->
+                    <a href="#team-members" class="header__navigation--link">Team</a>
+                </li>
+                <li class="header__navigation--item">
+                    <!-- Header Navigation Link for Contact-->
+                    <a href="#contact-area" class="header__navigation--link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="header-bg">
+        <div class="header-text-box">
+            <h1 class="header__heading">
+                Your Ultimate Solicitor and Legal Partner
+            </h1>
+            <p class="header__paragraph">
+                Excepteur magna ipsum quis commodo irure qui nulla pariatur occaecat dolor velit commodo consectetur.
+            </p>
+        </div>
+    </div>
+     
+    <section class="about" id="about-section">
+        <h2 class="section-heading">
+            About
+        </h2>
+        <div class="about__container">
+            <div class="about__content">
+                <p class="about__content--text">
+                    We are a fully serviced legal practice that has earned a reputation for consistently exceeding the expectations of our clients. The philosophy that inspires our business strategy is to provide efficient and value driven legal services engineered to suit the individual needs of each client within the permissible limits of the law and anchored on the basis of honesty, diligence and integrity
+                </p>
+                <p class="about__content--text">
+                    The firm has seen the need to not only satisfy and meet the legal needs of its paying Clientele but also the legal needs of its pro bono clientele, with as much dedication in time, research and legal service.
+                </p>
+                <p class="about__content--text">
+                    By consistently evolving means to satisfy the needs of our clients, we take full advantage of the latest technological business support tools to deliver on-demand services to our clients in record time. 
+                </p>
+            </div>
+            <div class="about__image-box">
+                <img src="img/about-image.png" alt="About Image" class="about__image">
+            </div>
+        </div>
+    </section> 
+    
+    <div class="practice__vectors">
+            <img src="assets/vectors/vector-1.svg" alt="" class="vector vector-1">
+            <img src="assets/vectors/vector-2.svg" alt="" class="vector vector-2">
+            <img src="assets/vectors/vector-3.svg" alt="" class="vector vector-3">
+            <img src="assets/vectors/vector-4.svg" alt="" class="vector vector-4">
+            <img src="assets/vectors/vector-5.svg" alt="" class="vector vector-5">
+            <img src="assets/vectors/vector-6.svg" alt="" class="vector vector-6">
+            <img src="assets/vectors/vector-8.svg" alt="" class="vector vector-8">
+            <img src="assets/vectors/vector-9.svg" alt="" class="vector vector-9">
+            <img src="assets/vectors/vector-10.svg" alt="" class="vector vector-10">
+            <img src="assets/vectors/vector-11.svg" alt="" class="vector vector-11">
+            <img src="assets/vectors/vector-13.svg" alt="" class="vector vector-13">
+            <img src="assets/vectors/vector-14.svg" alt="" class="vector vector-14">
+            <img src="assets/vectors/vector-15.svg" alt="" class="vector vector-15">
+            <img src="assets/vectors/vector-16.svg" alt="" class="vector vector-16">
+    </div>
+    <section class="practice" id="practice-area">
+        <div class="practice__content">
+            <h2 class="section-heading">
+                Practice Areas
+            </h2>
+            <div class="practice__headings">
+                <a href="#" class="practice-family-law practice-active" id="practice-family-law">
+                Family Law</a>
+                <a href="#" class="section-subheading practice__subheading practice-real-estate" id="practice-real-estate">Real Estate</a>
+                <a href="#" class="section-subheading practice__subheading practice-wills-estate" id="practice-wills-estate">Wills and Estate</a>
+                <a href="#" class="section-subheading practice__subheading practice-immigration-law" id="practice-immigration-law">Immigration Law</a>
+            </div>
+        </div>
+
+        <div class="practice__container">
+            <div class="practice__bg"></div>
+            <div class="practice__genre family-law" id="family-law">
+                <h3 class="practice__genre--title">Family Law</h3>
+                <p class="practice__genre--text">We provide legal service on issues relating to family relationship, such as adoptions,divorce and pre-nuptial agreements amidst others</p>
+                <p class="practice__genre--services">
+                    Our services cover:
+                </p>
+                <ul class="practice__list">
+                    <li class="practice__item">- Divorce (contested and uncontested)</li>
+                    <li class="practice__item">- Custody and child support</li>
+                    <li class="practice__item">- Adult guardianship & trusteeship</li>
+                    <li class="practice__item">- Minor guardianship</li>
+                    <li class="practice__item">- Spousal support</li>
+                    <li class="practice__item">- Emergency protection orders</li>
+                    <li class="practice__item">- Pre-nuptial and separation agreements</li>
+                    <li class="practice__item">- Property division</li>
+                    <li class="practice__item">- Child welfare</li>
+                </ul>
+            </div>
+            <div class="practice__genre real-estate" style="display:none;" id="real-estate">
+                    <h3 class="practice__genre--title">Real Estate</h3>
+                    <p class="practice__genre--text">Whether you're planning to buy or sell your property, it is one of our areas of practice to help you with your real estate transaction. At Fort Law Office, we value your business. We offer a free consult to help you review your Contract and all other documents before you commit yourself . We specialize in the sale and purchase of property, mortgage refinancing, construction and much more. We are accessible, have competitive rates and an extremely fast turnaround. 
+                    </p>
+            </div>
+                <div class="practice__genre wills-estate" style="display:none;" id="wills-estate">
+                        <h3 class="practice__genre--title">Wills and Estate</h3>
+                        <p class="practice__genre--services">
+                            Our services cover:
+                        </p>
+                        <ul class="practice__list">
+                            <li class="practice__item">- Preparation of and advising on testamentary disposition (wills)</li>
+                            <li class="practice__item">- Enduring Powers of Attorney</li>
+                            <li class="practice__item">- Personal Directives</li>
+                            <li class="practice__item">- Grant of Probate</li>
+                            <li class="practice__item">- Grant of Administration</li>
+                        </ul>
+                </div>
+                <div class="practice__genre immigration-law" style="display:none;" id="immigration-law">
+                            <h3 class="practice__genre--title">Immigration Law</h3>
+                            <p class="practice__genre--services">
+                                Our services include:
+                            </p>
+                            <ul class="practice__list practice__list--special">
+                                <div class="practice__list-one">
+                                    <li class="practice__item">- Family sponsorship - spouse and dependent children</li>
+                                    <li class="practice__item">- Refugee claims and appeals</li>
+                                    <li class="practice__item">- Permanent residence applications</li>
+                                    <li class="practice__item">- Canadian citizenship applications</li>
+                                    <li class="practice__item">- Provincial nominee applications</li>
+                                    <li class="practice__item">- Work permit applications</li>
+                                    <li class="practice__item">- Business immigration</li>
+                                    <li class="practice__item">- Visitor visa applications</li>
+                                    <li class="practice__item">- Study permit applications</li>
+                                    <li class="practice__item">- All immigration appeals</li>
+                                    <li class="practice__item">- Judicial reviews of IRCC decisions</li>
+                                    <li class="practice__item">- Detention hearings & ministerial appeals</li>
+                                </div>
+                                <div class="practice__list-two">
+                                    <li class="practice__item">- Labour Market Impact Assessment (LMIA) filings</li>
+                                    <li class="practice__item">- Appeal of removal orders</li>
+                                    <li class="practice__item">- In-home caregiver applications</li>
+                                    <li class="practice__item">- Parents/grandparents "super-visa" applications</li>
+                                    <li class="practice__item">- Authorization to return applications</li>
+                                </div>
+                            </ul>
+                        </div>
+        </div>
+        
+    </section>
+
+    <div class="team__bg">
+        <svg width="100vw" height="102.08333333vw" viewBox="0 0 1440 1470" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 131.309C524.036 -45.6557 841.239 -41.8737 1440 131.309V1470C877.645 1470 562.355 1470 0 1470V131.309Z" fill="#D7CB75" fill-opacity="0.08"/>
+        </svg>
+    </div>
+    <section class="team" id="team-members">
+        <h2 class="section-heading">
+            Team
+        </h2>
+        <article class="team__member team__member-one">
+            <img src="img/tolulope.png" alt="Tolulope Hans Aladejebi" class="team__member-one--image">
+            <div class="team__member-one--details">
+                <h5 class="team__member--name">Tolulope Hans Aladejebi</h5>
+                <h6 class="team__member--title">SWORN ADVOCATE</h6>
+                <p class="team__member--profile">Tolulope Hans Aladejebi has over ten years post-call experience from two jurisdictions (Alberta-Canada and Nigeria) having obtained his Bachelor of Law's degree from Igbinedion University, Nigeria in 2006. He was called to the Nigerian Bar in 2007. Hans practised law in Nigeria for 5 years prior to relocating to Canada with his family. In 2013, Hans moved to Canada. He did his articling with City Law Offices and was admitted to the Alberta Bar in 2016.</p>
+                <p class="team__member--profile">Hans represents clients in a wide range of contentious and non-contentious matters including but not limited to: family law, divorce action, child and spousal support. In addition to the above, Hans has successfully represented clients before the Canadian Immigration and Refugee Board advocating in citizenship, immigration and refugee matters.</p>
+                <p class="team__member--profile">A father of two, Hans is a member of the Knight of Columbus and also a member of the Fort Saskatchewan Multicultural Society.</p>
+            </div>
+        </article>
+
+        <article class="team__member team__member-two">
+            <div class="team__member-two--details">
+                <h5 class="team__member--name">Sheila Adamson</h5>
+                <h6 class="team__member--title">LEGAL ADVISOR</h6>
+                <p class="team__member--profile">Sheila derives passion in putting smile on people's face. A dedicated and hardworking  lady. Sheila considers all client matters as top priority and ensures that everyone is treated courteously, fairly and with respect. A bi-lingual Canadian, Sheila is good at what she does and she is always readily available to assist our client. She enjoys travelling and does a lot of volunteering in the community.</p>
+            </div>
+            <img src="img/sheila.png" alt="Sheila Adamson" class="team__member-two--image">
+        </article>
+    </section>
+    <span class="contact__location">Fort Law</span>
+    <span class="contact__location--point"></span>
+    <span class="contact__map--shades"></span>
+    <section class="contact" id="contact-area">
+        <div class="contact__description">
+            <div class="contact__card">
+            <h2 class="contact__heading">Contact</h2>
+            <span class="contact__heading--after">&nbsp;</span>
+            <div class="contact__container">
+                <h6 class="contact__address">ADDRESS</h6>
+                <p class="contact__address--text">SUITE 110, 9940 – 99 AVE, FORT <br> SASKATCHEWAN, AB. T8L 4G8
+                </p>
+                <h6 class="contact__contacts">CONTACTS</h6>
+                <p class="contact__contacts--number">Phone: 780-992-1636</p>
+                <p class="contact__contacts--number">Cell: 780-200-9721</p>
+                <p class="contact__contacts--number">Fax: 780-992-1617</p>
+
+                <a href="#" class="contact__button">Write Us</a>
+            </div>
+            </div>
+        </div>
+        <img src="img/contact-map.png" alt="Contact Location Map" class="contact__map">
+    </section>
+    <section class="cta">
+        <p class="cta__text">
+            Ea exercitation exercitation voluptate ut est ea id ipsum irure incididunt tempor et exercitation do
+        </p>
+        <a href="#" class="cta__button">Contact Us</a>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__logo-container">
+                <div class="footer__logo-box">
+                    <img src="img/logo2.png" alt="Fort Law Logo" class="footer__logo">
+                </div>
+                <p class="footer__logo-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo</p>
+            </div>
+            <div class="footer__navigation">
+                <h6 class="footer__navigation--title">COMPANY</h6>
+                <ul class="footer__navigation--list">
+                    <li class="footer__navigation--item">About</li>
+                    <li class="footer__navigation--item">Contact Us</li>
+                    <li class="footer__navigation--item">Practice Areas</li>
+                </ul>
+            </div>
+            <div class="footer__social-box">
+                <label for="email" class="form__title">Subscribe to our newsletter</label>
+                <form action="#" id="email" class="form__container">
+                    <input type="email" name="Email" id="email" class="form__email" placeholder="Email Address">
+                    <input type="submit" value="Subscribe" class="form__submit">
+                </form>
+                <p class="footer__social-text">Stay in touch</p>
+                <div class="footer__social-icons">
+                    <a href="#" class="footer__social-icons--link"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#" class="footer__social-icons--link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="footer__social-icons--link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright-box">
+            <p class="footer__copyright">&copy; Copyright 2018 Fort Law. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
